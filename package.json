@@ -1,0 +1,23 @@
+{
+  "name": "stack-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammad-Almomani/stack-queue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohammad-Almomani/stack-queue/issues"
+  },
+  "homepage": "https://github.com/Mohammad-Almomani/stack-queue#readme",
+  "dependencies": {
+    "jest": "^29.0.3"
+  }
+}
