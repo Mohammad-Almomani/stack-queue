@@ -4,6 +4,7 @@ const Stack = require('./stack')
 
 const stack = new Stack();
 
+console.log("Stack Data Structure Implementation");
 console.log(stack.isEmpty()) // expected to be true
 stack.stackPush(1)
 console.log(stack.isEmpty()) // expected to be false
@@ -22,4 +23,6 @@ console.log(stack.isEmpty()) // expected to be true
 
 stack.stackPush(1)
 stack.stackPush(2)
-console.log(stack)
+console.log("End of Stack Data Structure Implementation");
+console.log()
+console.log()
