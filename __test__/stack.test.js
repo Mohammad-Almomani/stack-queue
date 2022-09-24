@@ -19,7 +19,7 @@ describe("creating new Stack", () => {
 
     newStack.stackPop();
     expect(newStack.top).toBeNull();
-    expect(newStack.peek()).toBe("Stack is empty, top=null");
+    expect(newStack.peek()).toBe("Stack is empty, top = null");
     expect(newStack.isEmpty()).toBe(true);
   });
 });
