@@ -5,13 +5,13 @@ const LL = require("../linkedList/LL.js");
 class Stack {
   constructor() {
     // create empty linked list (stack) when initiated
-    (this.storage = new LL()),
-    (this.top = null);
+    this.storage = new LL(),
+    this.top = null;
   }
 
   stackPush(val) {
-    this.storage.insertAtBeginning(val),
-    (this.top = val);
+    this.storage.insertAtBeginning(val);
+    this.top = val;
   }
 
   stackPop() {
@@ -20,7 +20,7 @@ class Stack {
   }
 
   peek() {
-    return this.top != null ? this.top : "Stack is empty, top=null";
+    return this.top != null ? this.top : "Stack is empty, top = null";
   }
 
   isEmpty() {

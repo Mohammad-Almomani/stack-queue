@@ -20,5 +20,6 @@ console.log(stack.peek()) // expected to be stack is empty
 console.log(stack.isEmpty()) // expected to be true
 
 
-
+stack.stackPush(1)
+stack.stackPush(2)
 console.log(stack)
